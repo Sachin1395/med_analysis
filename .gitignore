@@ -1,0 +1,62 @@
+# 🔐 Environment variables
+.env
+.env.*
+*.env
+
+# 🧠 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# 📁 PyCharm files
+.idea/
+*.iml
+
+# 🧪 Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# 📊 Logs
+*.log
+
+# 📦 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 🧾 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🖼️ Data / models (optional - edit if needed)
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# 📄 PDFs / uploads (for your medical app)
+uploads/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# 🧰 OS files
+.DS_Store
+Thumbs.db
+
+# 🔑 Secrets (extra safety)
+secrets.json
+credentials.json
+
+# 🧱 Misc
+*.sqlite3
+*.db
